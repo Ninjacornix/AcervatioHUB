@@ -6,3 +6,29 @@
 body {
     background-color: lightblue;
 }
+
+.dot {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    height: 60px;
+    width: 60px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.plus {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    background:
+      linear-gradient(#000,#000),
+      linear-gradient(#000,#000);
+    background-position:center;
+    background-size: 50% 2px,2px 50%; /*thickness = 2px, length = 50% (25px)*/
+    background-repeat:no-repeat;
+  }
