@@ -1,2 +1,3 @@
 # AcervatioHUB
-working master for hub
+Working master for AcervatioHUB  
+See my project for more info.
