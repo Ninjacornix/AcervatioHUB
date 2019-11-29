@@ -6,7 +6,6 @@ const done = document.createElement("div");
 
 // style
 
-
 // appending vars
 todo.appendChild(todoDiv);
 todo.appendChild(inProgress);
@@ -18,4 +17,5 @@ document.style.appendChild(todo);
 // functions
 function additem(){
     document.createElement("div");
+    
 }

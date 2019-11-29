@@ -3,8 +3,25 @@
     padding: 0;
 }
 
+.header {
+    height: 40px;
+    text-align: center;
+    background-color: orange;
+}
+
 body {
     background-color: lightblue;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.title {
+    text-align: center;
 }
 
 .dot {
