@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "/home/cornix/Documents/git/vjezbe"
+		},
+		{
+			"path": "/home/cornix/Documents/git/zadaci"
+		},
+		{
+			"path": "/home/cornix/Documents/git/homework"
+		},
+		{
+			"path": "/home/cornix/Documents/git/aside"
+		},
+		{
+			"path": "/home/cornix/Documents/Development"
+		},
+		{
+			"path": "/home/cornix/Documents/AcervatioHUB"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "AcervatioHUB"
+	}
+}
