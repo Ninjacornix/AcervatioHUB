@@ -3,7 +3,12 @@ Working master for AcervatioHUB
 See my project for more info.  
   
 // WHATS ADDED  
--basic todo  
+-basic todo(REMOVED FOR NOW)  
   
 //WORKING ON  
--index layout
+-[x]index layout  
+-[]bootstrap layout  
+  
+//FEATURES  
+-added bootstrap 4 for nicer look  
+
