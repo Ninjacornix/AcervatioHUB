@@ -172,7 +172,7 @@ a.download {
 
 a.article,
 a.article:hover {
-    background: #6d7fcc !important;
+    background: #6C757D !important;
     color: #fff !important;
 }
 
@@ -185,11 +185,6 @@ a.article:hover {
     top: 0;
     right: 0;
 }
-
-#searchbar {
-    width: 200px;
-    height: 25px;
-    background-color: white;
-    margin-left: auto;
-    margin-right: auto;
+#about_container {
+    height: 450px;
 }

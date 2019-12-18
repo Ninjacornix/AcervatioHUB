@@ -8,8 +8,8 @@ See my project for more info.
   
 //WORKING ON  
 -[x]index layout  
--[]bootstrap layout  
--[]TODO layout  
+-[]bootstrap layout(work in progress)  
+-[]TODO layout(work in progress)  
 -[]TODO functionality  
   
 //FEATURES  
