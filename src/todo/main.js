@@ -1,26 +1,45 @@
-// declaring variables
-const todo = document.createElement("div");
-const todoDiv = document.createElement("div");
-const inProgress = document.createElement("div");
-const done = document.createElement("div");
+const input = document.getElementById("input");
+const button = document.getElementById("btn");
+const todolist = document.getElementById("todo_items");
+const donelist = document.getElementById("done_items");
 
-// style
-todo.style.backgroundColor = "white";
-inProgress.style.backgroundColor = "white";
-done.style.backgroundColor = "white";
+button.addEventListener("click", addFunc);
+todolist.addEventListener("click", moveItem);
 
+function addFunc(event){
+    event.preventDefault();
+    let save = input.value;
+    if(save.length != 0){
+    const additem = document.createElement("li");
+    const breakline = document.createElement("hr");
+    additem.innerHTML = input.value;
+    additem.style.listStyleType = "none";
+    additem.style.color = "white";
+    breakline.style.borderTop = "1px solid white";
+    todolist.appendChild(additem);
+    todolist.appendChild(breakline);
+    } else {
+        alert("Input field is undefined")
+    }
+};
 
-// appending vars
-todo.appendChild(todoDiv);
-todo.appendChild(inProgress);
-todo.appendChild(done);
-document.body.appendChild(todo);
+function removeItem(event){
+    const li = event;
+    const ul = li.parentNode;
+    const hr = li.nextSibling;
+    ul.removeChild(li);
+    ul.removeChild(hr);
+};
 
-// events
+function moveItem(event){
+    if(event.target.matches("li")){
+        const ul = event.parentNode;
+        const hr = event.nextSibling;
+        donelist.appendChild(event);
+        ul.removeChild(hr); 
+    }
+}
 
-// functions
-function additem(){
-    const addtotodo = document.createElement("div");
-    addtotodo.innerHTML = "hi";
-    done.appendChild(addtotodo);
+function markasdone(){
+
 }

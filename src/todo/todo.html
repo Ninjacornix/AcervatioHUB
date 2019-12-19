@@ -56,17 +56,41 @@
                         <span>Main Menu</span>
                     </button>
                     <div class="my-2 my-lg-0" id="navbarSupportedContent">
-                        <h2>TODO</h2>
+                        <h2>Todo</h2>
                     </div>
                 </div>
             </nav>
-            
-            <div class="container-fluid text-light">
-                <h4 style="text-align: center">Add item to Todo list</h4>
+            <div class="row">
+				<form id="form" onsubmit="return false" class="col-lg-6 col-8 mx-auto">
+					<div class="input-group">
+						<input id="input" class="form-control" placeholder="Enter todo list item">
+						<span>
+							<button id="btn" type="button" class="btn btn-secondary">Submit</button>
+						</span>
+					</div>			     
+				</form>
             </div>
-            <input id="searchbar" class="container-fluid"></input><input></input>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 style="text-align: center; color: white">Todo</h2>
+                    <hr style="border-top: 1px solid white">
+                    <ul id="todo_items">
+                        
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <h2 style="text-align: center; color: white">Done</h2>
+                    <hr style="border-top: 1px solid white">
+                    <ul id="done_items">
+
+                    </ul>
+                </div>
+            </div>	
         </div>
     </div>
+    <a href="#" class="float">
+        <i onclick="markasdone()" class="fa fa-check my-float"></i>
+    </a>
 
     <div class="overlay"></div>
 

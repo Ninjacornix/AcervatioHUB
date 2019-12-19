@@ -10,7 +10,7 @@ See my project for more info.
 -[x]index layout  
 -[]bootstrap layout(work in progress)  
 -[]TODO layout(work in progress)  
--[]TODO functionality  
+-[]TODO functionality(work in progress)  
   
 //FEATURES  
 -added bootstrap 4 for nicer look  
