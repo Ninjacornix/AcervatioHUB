@@ -70,6 +70,6 @@ function markasdone(){
 
 function removeSelected(){
     if(trigger === 1){
-        console.log(todolist.target.id);
+        console.log(target.id);
     }
 }

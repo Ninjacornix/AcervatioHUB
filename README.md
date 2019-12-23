@@ -11,6 +11,7 @@ See my project for more info.
 -[]bootstrap layout(work in progress)  
 -[]TODO layout(work in progress)  
 -[]TODO functionality(work in progress)  
+-[] adding arduino support  
   
 //FEATURES  
 -added bootstrap 4 for nicer look  

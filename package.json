@@ -1,0 +1,25 @@
+{
+  "name": "acervatiohub",
+  "version": "1.0.0",
+  "description": "Package for ACHUB",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ninjacornix/AcervatioHUB.git"
+  },
+  "keywords": [
+    "ACHUB"
+  ],
+  "author": "Ninjacornix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ninjacornix/AcervatioHUB/issues"
+  },
+  "homepage": "https://github.com/Ninjacornix/AcervatioHUB#readme",
+  "dependencies": {
+    "serialport": "^8.0.5"
+  }
+}
