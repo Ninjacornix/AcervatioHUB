@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Ninjacornix/AcervatioHUB#readme",
   "dependencies": {
+    "mongodb": "^3.4.1",
     "serialport": "^8.0.5"
   }
 }

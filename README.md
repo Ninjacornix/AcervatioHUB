@@ -6,13 +6,14 @@ See my project for more info.
 -basic todo(REMOVED FOR NOW)  
 -updated TODO bootstrap with colors and wallpaper    
   
-//WORKING ON  
+==========Frontend========== 
 -[x]index layout  
 -[]bootstrap layout(work in progress)  
 -[]TODO layout(work in progress)  
 -[]TODO functionality(work in progress)  
--[] adding arduino support  
+-[]show arduino data  
   
-//FEATURES  
--added bootstrap 4 for nicer look  
-
+==========Server==========  
+-[]server basics
+-[]server needs to be able to save user data
+-[]arduino support
